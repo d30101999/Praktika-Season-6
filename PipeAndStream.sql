@@ -149,3 +149,7 @@
           landing_item_stm.price,
           landing_item_stm.item_class,
           landing_item_stm.item_category);
+
+alter task order_curated_tsk resume;
+alter task customer_curated_tsk resume;
+alter task item_curated_tsk resume;
